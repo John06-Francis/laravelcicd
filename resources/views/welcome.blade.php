@@ -401,6 +401,10 @@
         body {
             font-family: 'Nunito', sans-serif;
         }
+
+        .custom-color {
+            color: red;
+        }
     </style>
 </head>
 
@@ -444,7 +448,7 @@
                                 </path>
                             </svg>
                             <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs"
-                                    class="underline text-gray-900 dark:text-white">Documentation</a></div>
+                                    class="underline custom-color dark:text-white">Documentation</a></div>
                         </div>
 
                         <div class="ml-12">
