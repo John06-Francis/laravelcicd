@@ -40,7 +40,7 @@ jobs:
     - name: Installing NPM
       run: npm install
     - name: Scaffold frontend assets
-      run: npm run dev
+      run: npm run build
     - name: Create Database
       run: |
         mkdir -p database
